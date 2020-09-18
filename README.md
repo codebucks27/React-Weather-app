@@ -1,4 +1,4 @@
-### React JS Weather App
+# React JS Weather App
 
 Build a weather app in recat js using Open Weather API.
 
