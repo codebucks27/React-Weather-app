@@ -2,6 +2,12 @@
 
 Build a weather app in react js using Open Weather API.
 
+<img width="959" alt="1" src="https://user-images.githubusercontent.com/89318986/131146278-be43a80c-d8c8-427d-847b-6220be69d2b8.PNG"> Fig 1 Screenshot
+
+<img width="960" alt="2" src="https://user-images.githubusercontent.com/89318986/131146326-57f73a32-d794-453c-92ed-ad752f4e2ef4.PNG"> Fig 2 
+
+<img width="960" alt="3" src="https://user-images.githubusercontent.com/89318986/131146363-9e34cc34-0448-4a6e-94b1-64d84885681c.PNG"> Fig 3
+
 ## Follow Below Instructions:
 
 #### Use This command in cmd or terminal to download starter-code file:
