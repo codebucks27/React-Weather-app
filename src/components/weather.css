@@ -1,11 +1,10 @@
 .weather {
-  margin-top: 20px;
+  margin: 2rem 0;
   border: 3px dashed grey;
   border-radius: 20px;
   padding-bottom: 30px;
   width: max-content;
   padding: 0px 20px 20px 20px;
-  margin-left: 25%;
 }
 .weather .title {
   font-size: 4rem;

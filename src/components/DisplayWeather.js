@@ -4,11 +4,11 @@ function DisplayWeather(props) {
   const { data } = props;
   const iconurl =
     "http://openweathermap.org/img/wn/" +
-    `${data.cod != 404 ? data.weather[0].icon : null}` +
+    `${data.cod !== 404 ? data.weather[0].icon : null}` +
     ".png";
   return (
     <div className="displayweather">
-      {data.cod != 404 ? (
+      {data.cod !== 404 ? (
         <React.Fragment>
           <div className="maincard">
             <span className="cardtitle">
@@ -24,7 +24,7 @@ function DisplayWeather(props) {
               <sup>o</sup>
             </h1>
             <span className="weather-main">{data.weather[0].main}</span>
-            <img className="weather-icon" src={iconurl} alt="" srcset="" />
+            <img className="weather-icon" src={iconurl} alt="" srcSet="" />
             <span className="weather-description">
               {" "}
               {data.weather[0].description}
@@ -33,7 +33,8 @@ function DisplayWeather(props) {
           <div className="weatherdetails">
             <div className="section1">
               <table>
-                <tr>
+              <tbody>
+              <tr>
                   <td>
                     <h4>High/Low</h4>
                   </td>
@@ -68,11 +69,13 @@ function DisplayWeather(props) {
                     <span>{data.visibility / 1000} Km</span>
                   </td>
                 </tr>
+              </tbody>
               </table>
             </div>
 
             <div className="section2">
               <table>
+                <tbody>
                 <tr>
                   <td>
                     <h4>Wind</h4>
@@ -112,6 +115,7 @@ function DisplayWeather(props) {
                     </span>
                   </td>
                 </tr>
+                </tbody>
               </table>
             </div>
           </div>
