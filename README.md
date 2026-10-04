@@ -85,3 +85,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Current tooling (Vite + Bun)
+
+The tutorial and original CRA notes above are retained for reference. This checkout now uses React 19, Vite, Vitest, and Bun 1.4.2; use Node 22.22.2+, 24.15.0+, or 26+ from the supported engine ranges. Run `bun install --frozen-lockfile`, `bun run start` (port 3000), `bun run test:run`, `bun run lint`, and `bun run build` (`build/` output). `bun run preview` serves the build locally; `PUBLIC_URL=/weather/ bun run build` configures a subpath. Public assets stay in `public/`, and client environment variables use `import.meta.env` with `VITE_` or `REACT_APP_` prefixes. The API key placeholder in `src/components/Weather.jsx` and the tutorial setup are unchanged.
