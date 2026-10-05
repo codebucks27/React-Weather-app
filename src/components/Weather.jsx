@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import DisplayWeather from "./DisplayWeather";
+import { useState } from "react";
+import DisplayWeather from "./DisplayWeather.jsx";
 import "./weather.css";
 
 function Weather() {
